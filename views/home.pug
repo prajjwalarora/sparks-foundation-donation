@@ -1,0 +1,14 @@
+extends base
+
+block content
+    .spinner.hide
+        img(src='img/spinner.svg' alt='spinner')
+    main.home
+        .home__container
+            .image-container
+                img(src='img/donation-illustration.svg' alt='donation illustration')
+            .text-container
+                p
+                    | Sparks Foundation is a Nonprofit organization. who helps needy ones in possible ways. You can also
+                    | contribute by clicking the below button and help needy ones.
+                a.donate-btn#donate-btn(href='/donate') Donate
