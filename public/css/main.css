@@ -16,10 +16,12 @@ body {
 }
 
 .header {
-  max-height: 10vh;
+  height: 70px;
+  width: 100%;
   padding: 2rem 0;
   background-color: #fff;
   border-bottom: 1px solid #cecece;
+  z-index: 99999;
 }
 
 .header__container {
@@ -136,8 +138,12 @@ body {
   width: 10rem;
 }
 
+.hide {
+  display: none;
+}
+
 .donate {
-  height: 90vh;
+  min-height: 90vh;
   display: -ms-grid;
   display: grid;
   place-content: center;
@@ -199,8 +205,5 @@ body {
 .thankyou h3 {
   font-size: 2rem;
   color: #3d3d3d;
-}
-.hide {
-  display: none;
 }
 /*# sourceMappingURL=main.css.map */
